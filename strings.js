@@ -1,0 +1,1 @@
+$('.photoframe').append('<img id="bigpic" src="https://i.imgur.com/GNNcXpQ.jpg" alt="">');
