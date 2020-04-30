@@ -5,16 +5,18 @@ body{
 .container {
     position: relative;    
     width: 1100px;
-        height: 400px;
-        background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 80px;
+    height: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    box-shadow: 0px 0px 3px 3px grey;
+    border-radius: 5%;
 }
 
 
 .left_arrow_frame {
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
     position: absolute;
     margin-right:auto; 
     top: 0;
@@ -23,6 +25,8 @@ body{
     line-height: 400px;
     width: 60px;
     text-align: center;
+    border-radius: 5%;
+}
 }
 #left {
     vertical-align: middle;
@@ -33,7 +37,7 @@ body{
 .right_arrow_frame {
     
     position: absolute;
-    background-color: blue;
+    /*background-color: blue;*/
     margin-left:auto; 
     top: 0;
     right:0;
@@ -41,6 +45,8 @@ body{
     line-height: 400px;
     width: 60px;
     text-align: center;
+    border-radius: 5%;
+}
 }
 #right {
     transform: rotate(0.5turn);
@@ -86,3 +92,20 @@ body{
     object-fit: cover;
 }
 
+.textbox {
+    position: absolute;
+    left: 60px;
+    bottom:0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    
+    width: 970px;
+    height: 100px;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0;
+}
