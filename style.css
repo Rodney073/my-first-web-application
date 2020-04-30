@@ -27,7 +27,7 @@ body{
     text-align: center;
     border-radius: 5%;
 }
-}
+
 #left {
     vertical-align: middle;
     max-height: 400px;
@@ -47,7 +47,7 @@ body{
     text-align: center;
     border-radius: 5%;
 }
-}
+
 #right {
     transform: rotate(0.5turn);
     vertical-align: middle;
